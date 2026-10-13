@@ -1,7 +1,6 @@
 services:
   web:
     build: .
-    image: health-web:v2
     ports:
-      - "127.0.0.1:18083:80"
+      - "127.0.0.1:18082:80"
 
